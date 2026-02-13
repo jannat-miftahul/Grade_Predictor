@@ -1,6 +1,7 @@
 # Grade Predictor
 
 A machine learning web application that predicts student HSC (Higher Secondary Certificate) exam results based on various demographic, academic, and social factors.
+<<<<<<< HEAD
 
 ## Features
 
@@ -96,3 +97,5 @@ grade-predictor/
 - pandas
 - scikit-learn
 - numpy
+=======
+>>>>>>> 21744e57e0c782589cd94a7fceb4de4db69b9d1b
