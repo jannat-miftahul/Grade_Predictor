@@ -1,18 +1,22 @@
 # Grade Predictor
 
 A machine learning web application that predicts student HSC (Higher Secondary Certificate) exam results based on various demographic, academic, and social factors.
-<<<<<<< HEAD
+
+## 🚀 Live Demo
+
+Try the application here: [Grade-Predictor](https://miftahul-jannat-grade-predictor.hf.space)
 
 ## Features
 
-- 🎯 Accurate grade prediction using Random Forest algorithm
-- 🖥️ Interactive web interface built with Gradio
-- 📊 Real-time predictions based on student data
-- 🌐 Shareable web link for easy access
+- Accurate grade prediction using Random Forest algorithm
+- Interactive web interface built with Gradio
+- Real-time predictions based on student data
+- Shareable web link for easy access
 
 ## Dataset
 
 The model is trained on Bangladesh student performance data, considering factors such as:
+
 - Demographic information (gender, age, address)
 - Family background (size, parent status, education levels)
 - Parental occupation
@@ -29,12 +33,14 @@ The model is trained on Bangladesh student performance data, considering factors
 ## Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/grade-predictor.git
-cd grade-predictor
+git clone https://github.com/jannat-miftahul/Grade_Predictor.git
+cd Grade_Predictor
 ```
 
 2. Create a virtual environment:
+
 ```bash
 python -m venv venv
 source venv/Scripts/activate  # On Windows
@@ -42,6 +48,7 @@ source venv/Scripts/activate  # On Windows
 ```
 
 3. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -49,11 +56,13 @@ pip install -r requirements.txt
 ## Usage
 
 1. Train the model (if needed):
+
 ```bash
 python rf_train.py
 ```
 
 2. Launch the web application:
+
 ```bash
 python app.py
 ```
@@ -80,14 +89,11 @@ python app.py
 ## Project Structure
 
 ```
-grade-predictor/
-│
-├── app.py                              # Gradio web application
-├── rf_train.py                         # Model training script
+├── app.py                              # Web application
+├── rf_train.py                         # Model training
 ├── bangladesh_student_performance.csv  # Dataset
-├── student_rf_pipeline.pkl             # Trained model pipeline
-├── requirements.txt                    # Python dependencies
-└── README.md                          # Project documentation
+├── student_rf_pipeline.pkl             # Trained model
+└── requirements.txt                    # Dependencies
 ```
 
 ## Requirements
@@ -97,5 +103,3 @@ grade-predictor/
 - pandas
 - scikit-learn
 - numpy
-=======
->>>>>>> 21744e57e0c782589cd94a7fceb4de4db69b9d1b
